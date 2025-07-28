@@ -47,6 +47,9 @@ class TableReservationSystem {
         
         // Initialize automation
         new TRS_Automation();
+        
+        // Initialize API
+        new TRS_API();
     }
     
     private function load_dependencies() {
@@ -56,6 +59,7 @@ class TableReservationSystem {
         require_once TRS_PLUGIN_PATH . 'includes/class-trs-email.php';
         require_once TRS_PLUGIN_PATH . 'includes/class-trs-automation.php';
         require_once TRS_PLUGIN_PATH . 'includes/class-trs-ajax.php';
+        require_once TRS_PLUGIN_PATH . 'includes/class-trs-api.php';
     }
     
     private function init_hooks() {

@@ -37,6 +37,16 @@ Beautiful 4-step booking process:
 - **WordPress Database**: Uses WordPress database with proper prefixes
 - **Admin Dashboard**: Native WordPress admin interface
 - **Responsive Design**: Mobile-friendly booking form and admin interface
+- **REST API**: Full REST API for mobile app integration
+
+### 📱 REST API Features
+- **Authentication**: JWT-like token authentication for secure access
+- **Dashboard Data**: Get reservation statistics and today's reservations
+- **Reservation Management**: Full CRUD operations for reservations
+- **Status Updates**: Real-time reservation status updates
+- **Table Information**: Access table configurations
+- **Settings Control**: Toggle booking availability remotely
+- **Mobile Ready**: Optimized endpoints for mobile app development
 
 ## Installation
 
